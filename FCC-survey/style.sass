@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;1,300;1,700&display=swap')
+
+$mobile: 600px
+$desktop: 1920px
+$purple: #d9c4ff
+$dark-purple: #2B2A47
+$fonte: 'Source Serif Pro', serif
+
+*
+    font-family: $fonte
+    margin: 0%
+#main
+    background-color: $purple
+    height: 100%
+#top
+    text-align: center
+    padding: 10px 0px 10px 0px
+    h1
+        font-weight: 700
+        padding-bottom: 5px
+    p
+        font-style: italic
+        font-weight: 300
+#survey-form
+    display: block
+    margin-top: 0em
+    padding: 2.5em
+    background-color: $dark-purple
+    color: #ffffff
+    @media screen and (max-width: $desktop)
+        max-width: 700px
+        margin: auto
+    @media screen and (max-width: $mobile)
+        max-width: 100vw
