@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;1,300;1,700&display=swap");
 * {
   font-family: "Source Serif Pro", serif;
+  font-size: 1.08em;
   margin: 0%;
 }
 
@@ -39,6 +40,26 @@
   #survey-form {
     max-width: 100vw;
   }
+}
+
+.group-form {
+  padding-bottom: 30px;
+}
+.group-form input {
+  width: 100%;
+}
+.group-form select {
+  width: 100%;
+  margin-top: 5px;
+}
+.group-form textarea {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#submit {
+  width: 100%;
+  background-color: #ffe500;
 }
 
 /*# sourceMappingURL=style.css.map */
