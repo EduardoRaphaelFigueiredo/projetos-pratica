@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;1,300;1,400&display=swap')
+$mobile: 600px
+$desktop: 1920px
+$font: 'Source Serif Pro', serif
+*
+    padding: 0%
+    margin: 0%
+html
+    background-image: url(midia/background.jpg)
+    background-position: center center
+    background-size: cover
+    background-repeat: no-repeat
+    height: 1005px
+    font-family: $font
+main
+    background-color: #F7E9EA
+    @media screen and (max-width: $desktop)
+        max-width: 50vw
+        width: 100%
+        height: auto
+        margin: auto
+        padding-left: 10%
+        padding-right: 10%
+        min-height: 800px
+    @media screen and (max-width: $mobile)
+        max-width: 80vw
+        width: 90%
+        height: auto
+        min-height: 800px
+#logo
+    width: 100%
+    max-width: 30vw
+li
+    list-style-type: none
+    display: inline
+
+#catalog
+    display: flex
+    justify-content: center
+    border: black
+    border-style: dotted
+    width: 100%
+    height: 300px
+.img-catalog
+    width: 100%
+    height: 100%
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
+#img-product1
+    background-image: url(https://cdn.shopify.com/s/files/1/1867/9411/products/Gourmet_Classico-02_600x.png?v=1571334247)
+
+#img-product2
+    background-image: url(https://cdn.shopify.com/s/files/1/1867/9411/products/BaggioGourmetEspressoTM250g_600x.png?v=1607091802)
+.hover-text
+    height: 100%
+    text-align: center
+    color: white
+    opacity: 0
+    transition: opacity .2s linear
+    background-color: rgba(0,0,0,.7)
+
+#img-product1:hover .hover-text
+    opacity: 1
+#img-product2:hover .hover-text
+    opacity: 1
