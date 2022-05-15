@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;700&display=swap");
 * {
   padding: 0%;
   margin: 0%;
   color: #57443C;
+  font-size: 1.08em;
+  font-family: "Source Serif Pro", serif;
 }
 
 body {
@@ -12,7 +14,48 @@ body {
 main {
   background-color: #FFFFFF;
   max-width: 100%;
-  width: 900px;
+  width: 1100px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 1.5%;
+  padding: 1.2%;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 2.4em;
+  margin-right: 10%;
+  font-weight: bolder;
+}
+
+#menu {
+  display: inline;
+}
+#menu a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C7B8B8;
+  font-size: 1.13em;
+}
+
+header {
+  height: fit-content;
+}
+
+.produto {
+  width: 20vw;
+}
+
+h2 {
+  margin-top: 10vh;
+}
+
+input {
+  display: block;
   margin: auto;
 }
 
